@@ -2,11 +2,7 @@ public class UsingSleepMethod {
 
     //sleep methods throws InterruptedException/Throwable so that needs to be handled by the method inside which we are using sleep method
     public static void main(String[] args) throws Throwable {
-        Thread thread = new Thread(()-> {
-
-                System.out.println("Executing thread "+ Thread.currentThread().getName());
-
-        });
+        Thread thread = new Thread(()-> System.out.println("Executing thread "+ Thread.currentThread().getName()));
 
         thread.setName("New Worker Thread");
         System.out.println("Before startig the the new thread we are in : "+ Thread.currentThread().getName());

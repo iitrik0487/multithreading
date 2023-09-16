@@ -1,3 +1,5 @@
+package com.example.thread.creation;
+
 public class CatchUncaughtException {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(()-> {

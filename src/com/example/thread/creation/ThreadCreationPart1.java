@@ -1,3 +1,5 @@
+package com.example.thread.creation;
+
 public class ThreadCreationPart1 {
     public static void main(String[] args) {
         Thread thread = new Thread(new Runnable() {

@@ -1,5 +1,6 @@
 public class UsingSleepMethod {
 
+    //sleep methods throws InterruptedException so that needs to be handled by the method inside which we are using sleep method
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(()-> {
 
